@@ -1,9 +1,9 @@
 import "./App.css";
-import ExpenseItem from "./components/ExpenseItem";
-import Expenses from "./components/Expenses";
-import Card from "./UI/Card";
+import ExpenseItem from "./components/Expenses/ExpenseItem";
+import Expenses from "./components/Expenses/Expenses";
+import Card from "./components/UI/Card";  
 
-function App() {
+const App = () => {
   const expenses = [
     {title:"Car Insurance ", amount:294.45, date:new Date(2021,2,28)},
     {title:"Toilet Paper ", amount:9.25, date:new Date(2021,2,29)},
